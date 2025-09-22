@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
 # Date:
-## Register Number:
-## Name:
+## Register Number: 25016071
+## Name: NAVEENKUMAR V
 ## Problem Title
 SIH 25010: Smart Crop Advisory System for Small and Marginal Farmers
 ## Problem Description
@@ -41,28 +41,57 @@ Government of Punjab
 Agriculture, FoodTech & Rural Development
 
 ## Proposed Solution
-<h3>Remove These Lines</h3>
-<ul><li>Detailed explanation of the proposed solution</li>
-<li>How it addresses the problem</li>
-<li>Innovation and uniqueness of the solution</li></ul>
+We propose developing a Smart Crop Advisory System (SCAS):<br></br>
+  • A mobile app + web platform with chatbot and voice assistant in local languages.<br></br>
+  • Integration of AI/ML models for soil analysis, crop prediction, and pest detection.<br></br>
+  • Weather API integration for real-time forecasts and alerts.<br></br>
+  • Market linkage through price tracking dashboards.<br></br>
+  • Simple, icon-based UI for low-literate farmers.<br></br>
 
 ## Technical Approach
+• Frontend: React Native (mobile app), React.js (web portal)<br></br>
+• Backend: Django/Flask with REST APIs<br></br>
+• Database: PostgreSQL + GeoSpatial support<br></br>
+• AI/ML Models: TensorFlow / PyTorch for crop recommendation and pest detection<br></br>
+• Data Sources:<br></br>
+  •  IMD (Indian Meteorological Department) for weather<br></br>
+  •  Soil health cards from Govt. databases<br></br>
+  •  Local market price APIs<br></br>
+• Deployment: Cloud (AWS/Azure) with offline functionality via SQLite<br></br>
 <h3>Remove These Lines</h3>
 <ul><li>Technologies to be used (e.g. programming languages, frameworks, hardware)
 </li>
 <li>Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b></li></ul>
 
 ## Feasibility and Viability
-<h3>Remove These Lines</h3>
-<ul><li>Analysis of the feasibility of the idea</li>
-<li>Potential challenges and risks</li>
-<li>Strategies for overcoming these challenges</li></ul>
+<h3><b>Feasibility of the idea</b></h3>
+<ul><li>Mobile penetration in rural India is >70%, making smartphone apps feasible.</li>
+<li>Government initiatives (Digital India, Kisan apps) show farmers’ willingness to adopt ICT tools.</li>
+<li>Partnerships with agri-tech startups, NGOs, and state agricultural departments will ensure adoption.</li></ul>
+
+<h3><b>Potential challenges and risks</b></h3>
+<ul><li>Low digital literacy → solution: voice + icon-based UI.</li>
+<li>Limited internet access → solution: offline-first design with periodic sync.</li>
+<li>Farmer trust issues → solution: work with local extension officers and farmer producer organizations.</li></ul>
+
+<h3><b>Strategies For Overcoming these Challenges </b></h3>
+  <b>1.Strategies for overcoming these challenges</b><br></br>
+<ul><li>Introduce voice-based navigation and support in local languages.</li>
+<li>Use pictorial and icon-based UI for easy understanding.</li>
+<li>Conduct training workshops in collaboration with NGOs and agricultural extension officers.</li></ul>
 
 ## Impact and Benefits
+• Social: Better decision-making, reduced dependency on middlemen<br></br>
+• Economic: Increased yield, optimized input costs, higher profits<br></br>
+• Environmental: Reduced overuse of fertilizers/pesticides, sustainable farming<br></br>
+
+Policy support: Aligns with Govt. schemes like PM-Kisan and Digital India
 <h3>Remove These Lines</h3>
 <ul><li>Potential impact on the target audience</li>
 <li>Benefits of the solution (social, economic, environmental, etc.)</li></ul>
 
 ## Research and References
-<h3>Remove These Lines</h3>
-<ul><li>Details / Links of the reference and research work</li></ul>
+• NABARD Report, 2022<br></br>
+• FAO ICT in Agriculture Reports<br></br>
+• Indian Meteorological Department Data APIs<br></br>
+• Existing platforms: Kisan Suvidha, AgriApp (used for benchmarking)<br></br>
