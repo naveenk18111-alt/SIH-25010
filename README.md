@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
 # Date:
-## Register Number:
-## Name:
+## Register Number: 25016071
+## Name: NAVEENKUMAR V
 ## Problem Title
 SIH 25010: Smart Crop Advisory System for Small and Marginal Farmers
 ## Problem Description
@@ -47,6 +47,11 @@ Agriculture, FoodTech & Rural Development
 <li>Innovation and uniqueness of the solution</li></ul>
 
 ## Technical Approach
+• Frontend: React Native/Flutter for cross-platform mobile app.<br></br>
+• Backend: Python (FastAPI/Django REST),Node.js for scalability.<br></br>
+• AI/ML: TensorFlow/PyTorch for Predictive models, OpenCV for image-based pest detection.<br></br>
+• APIs: Weather APIs(IMD, OpenWeather),soil databases,government mandi price APIs.<br></br>
+• Cloud Deployment: AWS/GCP/Azure for scalability, with offline-first capabilites.<br></br>
 <h3>Remove These Lines</h3>
 <ul><li>Technologies to be used (e.g. programming languages, frameworks, hardware)
 </li>
