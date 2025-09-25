@@ -105,7 +105,7 @@ Builds confidence among farmers by giving them direct access to information, red
 - Reduced overuse of pesticides and fertilizers.  
 - Prevents large-scale crop loss through early disease detection.  
 ## Flowchart
-![WhatsApp Image 2025-09-25 at 10 48 46 PM](https://github.com/user-attachments/assets/e9b1ddd3-b8d6-41ac-885c-f34e623c651c)
+![Hackaton picture](https://github.com/user-attachments/assets/768e2857-e5f7-4bf4-bc9c-b9fc2d54d61b)
 
 ---
 
