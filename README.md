@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 25-09-2025
+## Register Number: 25016071
+## Name: NAVEENKUMAR V
 ## Problem Title
 SIH 25010: Smart Crop Advisory System for Small and Marginal Farmers
 ## Problem Description
@@ -29,40 +29,79 @@ Relevant Stakeholders / Beneficiaries
 • NGOs and cooperatives
 • Agri-tech startups
 
-Supporting Data
-
-• 86% of Indian farmers are small or marginal (NABARD Report, 2022).
-• Studies show ICT-based advisories can increase crop yield by 20–30%.
-
-## Problem Creater's Organization
-Government of Punjab
-
-## Theme
-Agriculture, FoodTech & Rural Development
+# Smart Crop Advisory System
 
 ## Proposed Solution
-<h3>Remove These Lines</h3>
-<ul><li>Detailed explanation of the proposed solution</li>
-<li>How it addresses the problem</li>
-<li>Innovation and uniqueness of the solution</li></ul>
+The proposed solution is a **Smart Crop Advisory System** that helps farmers make better decisions using digital tools.  
+It brings together crop advisory, soil and weather analysis, pest detection, and market insights into one platform.
+
+- Provides **personalized crop guidance** using soil data and weather updates.  
+- Helps address common issues faced by farmers such as unpredictable weather, pest attacks, and unstable market prices.  
+- **Unique feature**: combines AI-driven pest detection with multilingual support, making it farmer-friendly and easy to use.  
+- Ensures that even rural farmers with limited digital literacy can benefit from the service via mobile apps and USSD.  
+
+---
 
 ## Technical Approach
-<h3>Remove These Lines</h3>
-<ul><li>Technologies to be used (e.g. programming languages, frameworks, hardware)
-</li>
-<li>Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b></li></ul>
+The system uses a modular design with different services connected through an API Gateway.
 
-## Feasibility and Viability
-<h3>Remove These Lines</h3>
-<ul><li>Analysis of the feasibility of the idea</li>
-<li>Potential challenges and risks</li>
-<li>Strategies for overcoming these challenges</li></ul>
+- **Technologies**  
+  - Backend: Python (Django/Flask)  
+  - Frontend: JavaScript (React)  
+  - Databases: PostgreSQL, MongoDB, Redis/Cloud Storage  
+  - AI/ML: For pest and disease detection from images  
+  - APIs: Weather updates, market price feeds  
+
+- **Methodology**  
+  1. Farmers use the **mobile app or USSD service** to raise queries.  
+  2. Requests go through an **API Gateway** for routing and authentication.  
+  3. The request is sent to the right **backend service** (crop advisory, pest detection, weather/soil, market monitoring).  
+  4. Each service connects to its own **database** for storing and retrieving information.  
+  5. The processed result is sent back to the farmer in a simple and clear format.
+     ## Feasibility and Viability
+
+### Feasibility
+The system is realistic since it uses already available technologies, cloud platforms, and APIs.  
+It requires moderate infrastructure and can be scaled as needed.
+
+---
+
+### Challenges
+- Poor internet connectivity in rural regions.  
+- Farmers not fully comfortable with smartphone apps.  
+- High accuracy needed for AI-based pest detection.  
+
+---
+
+### Solutions
+- **USSD support** for non-smartphone users.  
+- **Multilingual simple UI** for ease of use.  
+- **Collaboration with agricultural research institutions** for reliable datasets.  
+
+---
 
 ## Impact and Benefits
-<h3>Remove These Lines</h3>
-<ul><li>Potential impact on the target audience</li>
-<li>Benefits of the solution (social, economic, environmental, etc.)</li></ul>
+
+### Impact on Farmers
+Farmers gain quick access to reliable crop advice and market updates.  
+
+### Social Benefits
+Builds confidence among farmers by giving them direct access to information, reducing dependence on intermediaries.  
+
+### Economic Benefits
+- Higher crop yields due to better planning.  
+- Better income by selling at favorable times and markets.  
+
+### Environmental Benefits
+- Reduced overuse of pesticides and fertilizers.  
+- Prevents large-scale crop loss through early disease detection.  
+
+## flow chart
+![WhatsApp Image 2025-09-25 at 10 48 46 PM](https://github.com/user-attachments/assets/c56236f3-6bc7-4d67-912e-cb533338701b)
+
 
 ## Research and References
-<h3>Remove These Lines</h3>
-<ul><li>Details / Links of the reference and research work</li></ul>
+- [NABARD Annual Report 2022](https://www.nabard.org/)  
+- [Indian Agricultural Research Institute (ICAR)](https://www.icar.org.in/)  
+- [FAO – ICT in Agriculture](https://www.fao.org/ict4ag/en/)  
+- [Government of India – Agri-Tech Initiatives](https://agricoop.gov.in/)
